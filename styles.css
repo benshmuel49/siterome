@@ -1,0 +1,71 @@
+body{ 
+    background-image: url(./foodpic.jpeg);
+    display: flex;
+    opacity: 80%;
+    height: 100vh;
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+} 
+
+#logo{
+    color: #876858;
+    background-color: #bcaf82;
+    height: 300vh;
+    width: 300vh;
+    width: 12%;
+    font-family: fantasy;
+    font-style:initial;
+    display: flex;
+
+}
+
+.my2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornflowerblue;
+    font-size:20vh;
+    
+        height: 7vh;
+        width: 7vh;
+        place-items: baseline;
+}
+
+    
+.btn{
+    color: rgb(231 215 160);
+    background: #6a5646;
+    border: inherit;
+    margin: inherit;
+    font-family: fantasy;
+}
+
+
+.food{
+    margin: 15px;
+    --fa-font-brands: normal 400 1em/1"Font Awesome 6 Brands";
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.call{
+    display: flex;
+}
+    
+#calander{
+    font-family: fantasy;
+    display: flex;
+}
+
+#main menu{
+    display:flex;
+    justify-content: space-around;
+
+}
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "<another formatter>"
+    }
+  }
+  
