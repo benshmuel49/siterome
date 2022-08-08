@@ -1,34 +1,43 @@
+
+
+#logo{
+    background-color: navajowhite;
+    font-size: x-large;
+    font-family: fantasy;
+    font-style:initial;
+    text-align: center;
+}
+
+
+#container {
+    background-color: rgba(0, 0, 0, 0.659);
+    width: 60vh;
+    height: 100vh;
+    color: navajowhite;
+    text-align: initial;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+
+
+
+
 body{ 
+background-color: rgb(255, 255, 255);
     background-image: url(./foodpic.jpeg);
     display: flex;
-    opacity: 80%;
+    background-attachment: fixed;
     height: 100vh;
     width: 100%;
     align-items: stretch;
     flex-direction: column;
+    opacity: 90%;
 } 
 
-#logo{
-    color: #876858;
-    background-color: #bcaf82;
-    height: 300vh;
-    width: 300vh;
-    width: 12%;
-    font-family: fantasy;
-    font-style:initial;
-    display: flex;
-
-}
-
-.my2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: cornflowerblue;
-    font-size:20vh;
-    
-        height: 7vh;
-        width: 7vh;
-        place-items: baseline;
-}
 
     
 .btn{
@@ -46,6 +55,10 @@ body{
     color: white;
     font-weight: bold;
     font-family: cursive;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
 }
 
 .call{
@@ -55,17 +68,23 @@ body{
 #calander{
     font-family: fantasy;
     display: flex;
+    flex-direction: column;
 }
 
-#main menu{
-    display:flex;
-    justify-content: space-around;
-
-}
-{
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[javascript]": {
-      "editor.defaultFormatter": "<another formatter>"
-    }
+  .main{
+    display: flex;
+    background-color: hsl(0deg 0% 100%);
+    display: flex;
+    font-size: xx-large;
+    color: #5a4739;
+    font-family: fantasy;
+    justify-content: space-between;
+    flex-direction: row;
+    
   }
   
+  #btn{background-color:navajowhite;
+    display: flex;
+    flex-direction: column;
+
+  }
